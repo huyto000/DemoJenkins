@@ -1,0 +1,8 @@
+version: "2"
+services:
+  app:
+    build: .
+    image: huyto000/demojenkins:latest
+    ports:
+      - "8090:8090"
+    container_name: my-app
